@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c47cceacc5d503489e30230ea2ab0e1, type: 3}
+  m_Name: EnemyStats_Tank
+  m_EditorClassIdentifier: Assembly-CSharp::RecoilArena.Enemies.EnemyStats
+  enemyName: Bulwark
+  maxHealth: 165
+  moveSpeed: 3.2
+  acceleration: 10
+  turnSpeed: 420
+  attackRange: 2.7
+  attackDamage: 20
+  attackCooldown: 1.45
+  scoreReward: 250
+  weakSpotMultiplier: 1.7
+  weakSpotMinShiftInterval: 1.3
+  weakSpotMaxShiftInterval: 2.6
+  weakSpotMoveSpeed: 4.2
+  weakSpotOffsets:
+  - {x: 0, y: 0.18, z: 0.34}
+  - {x: 0.3, y: 0.06, z: 0}
+  - {x: -0.3, y: 0.06, z: 0}
+  - {x: 0, y: -0.18, z: -0.32}
+  bodyScale: {x: 1.6, y: 1.6, z: 1.6}
+  bodyColor: {r: 0.76, g: 0.43, b: 1, a: 1}
+  weakSpotColor: {r: 1, g: 0.21, b: 0.18, a: 1}

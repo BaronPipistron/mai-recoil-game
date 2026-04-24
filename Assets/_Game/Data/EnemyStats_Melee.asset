@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c47cceacc5d503489e30230ea2ab0e1, type: 3}
+  m_Name: EnemyStats_Melee
+  m_EditorClassIdentifier: Assembly-CSharp::RecoilArena.Enemies.EnemyStats
+  enemyName: Rusher
+  maxHealth: 50
+  moveSpeed: 5.8
+  acceleration: 20
+  turnSpeed: 880
+  attackRange: 2.2
+  attackDamage: 12
+  attackCooldown: 1.05
+  scoreReward: 100
+  weakSpotMultiplier: 1.65
+  weakSpotMinShiftInterval: 1
+  weakSpotMaxShiftInterval: 2
+  weakSpotMoveSpeed: 6
+  weakSpotOffsets:
+  - {x: 0, y: 0.38, z: 0.42}
+  - {x: 0.34, y: 0.22, z: 0}
+  - {x: -0.34, y: 0.22, z: 0}
+  - {x: 0, y: -0.08, z: -0.36}
+  bodyScale: {x: 1, y: 1.1, z: 1}
+  bodyColor: {r: 0.22, g: 0.9, b: 1, a: 1}
+  weakSpotColor: {r: 1, g: 0.34, b: 0.22, a: 1}
