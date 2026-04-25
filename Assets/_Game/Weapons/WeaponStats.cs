@@ -19,7 +19,7 @@ namespace RecoilArena.Weapons
         public float reloadDuration = 2f;
 
         [Header("Recoil")]
-        public float recoilImpulse = 18f;
+        public float recoilImpulse = 50f;
         public float recoilVerticalLift = 0f;
     }
 }

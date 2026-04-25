@@ -141,7 +141,7 @@ namespace RecoilArena.EditorTools
             stats.clipSize = 4;
             stats.reserveAmmo = 36;
             stats.reloadDuration = 2f;
-            stats.recoilImpulse = 18.5f;
+            stats.recoilImpulse = 50f;
             stats.recoilVerticalLift = 0f;
             EditorUtility.SetDirty(stats);
             return stats;
