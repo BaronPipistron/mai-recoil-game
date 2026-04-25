@@ -21,5 +21,5 @@ MonoBehaviour:
   clipSize: 4
   reserveAmmo: 36
   reloadDuration: 2
-  recoilImpulse: 18.5
+  recoilImpulse: 50
   recoilVerticalLift: 0
